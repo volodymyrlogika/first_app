@@ -15,7 +15,7 @@ from kivy.uix.boxlayout import BoxLayout
 class MyApp(App):
 
     def build(self):
-        btn = Button(text="Не натискай" , size_hint=(1, None), height="40sp" )
+        btn = Button(text="Не натискай!" , size_hint=(1, None), height="40sp" )
         btn.on_press = self.btn_click
         text = Label(text='Hello world')
         col = BoxLayout(orientation='vertical', size_hint=(0.6, 0.7),
